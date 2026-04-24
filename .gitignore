@@ -1,0 +1,34 @@
+# Data — too large for GitHub; download from Kaggle
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# Generated outputs — regenerate by running the script
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter (project is a script, not a notebook)
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
